@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# 🧑‍💻 My Cybersecurity Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website built with **Next.js**, **TypeScript**, and **Tailwind CSS** — designed around a **cyberpunk / cybersecurity** aesthetic.  
+It showcases my skills, projects, and achievements in an interactive and modern way.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tech Stack
 
-### `npm start`
+- ⚡ **Next.js 14** — React framework for fast, optimized web apps  
+- 💅 **Tailwind CSS 4** — Utility-first CSS for sleek, responsive UI  
+- 🧠 **TypeScript** — For type safety and better code structure  
+- 🌌 **Cyberpunk Design** — Inspired by cybersecurity and neon hacker aesthetics  
+- ☁️ **Vercel** — Deployment platform for seamless CI/CD  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖥️ Features
 
-### `npm test`
+- Responsive **navigation bar**
+- Hero section with name, title, and CTA buttons  
+- Sections for **About**, **Skills**, **Projects**, **Achievements**, and **Contact**
+- Clean animations and hover effects using Tailwind transitions  
+- Custom **cyberpunk color palette** (neon greens, dark backgrounds)  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Local Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these steps to run the project locally on your system 👇
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1  Clone the repository
+```bash
+git clone https://github.com/<your-username>/myportfolio.git
+cd myportfolio
+```
+### 2 Install dependencies
+```bash 
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3 Run the development server
+```bash
+npm run dev
+```
 
-### `npm run eject`
+## Build for Production
+```bash
+npm run build
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is deployed using Vercel.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Live URL: https://vercel.com/ishas-projects-a9b1d6f1/improvedportfolio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Folder Structure
+myportfolio/
+├── src/
+│   └── app/
+│       ├── globals.css        # Global styles (Tailwind + theme)
+│       ├── layout.tsx         # Root layout wrapper
+│       ├── page.tsx           # Homepage / landing section
+│
+├── public/                    # Static assets
+├── tailwind.config.js         # Tailwind configuration
+├── postcss.config.mjs         # PostCSS setup
+├── next.config.ts             # Next.js config
+└── README.md                  # Project documentation
 
-## Learn More
+## 🧑‍🔒 Theme Inspiration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The design takes inspiration from cybersecurity and hacker culture —
+featuring dark neon aesthetics, glowing elements, and futuristic typography.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💬 Feedback
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Have suggestions or feedback?
+Feel free to open an issue or reach out via the contact section on my portfolio site!
